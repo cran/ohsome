@@ -1,9 +1,13 @@
 ## ---- include = FALSE---------------------------------------------------------
+NOT_CRAN <- identical(tolower(Sys.getenv("NOT_CRAN")), "true")
+httr::set_config(httr::config(http_version = 1))
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
   fig.path = "figures/", 
-  out.width = "100%"
+  out.width = "100%",
+  purl = NOT_CRAN,
+  eval = NOT_CRAN
 )
 
 ## ----library------------------------------------------------------------------
@@ -89,7 +93,7 @@ ohsome_contributions_count(
 	ohsome_post()
 
 ## ----contribution_extraction--------------------------------------------------
-nominatimlite::geo_lite_sf("Berlin Neukölln", points_only = FALSE) |>
+nominatimlite::geo_lite_sf("Berlin Neukoelln", points_only = FALSE) |>
 	ohsome_contributions_centroid() |>
 	set_filter("amenity=*") |>
 	set_time("2020-03,2020-04") |>

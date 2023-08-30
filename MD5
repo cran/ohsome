@@ -1,6 +1,6 @@
-d8c492ec234b97f23c1149e7e55f06ff *DESCRIPTION
+9dbecfc326b84550d8583c2f84e5e391 *DESCRIPTION
 2778d4617489d3e1b648df6a997017dc *NAMESPACE
-bb69fbc82cbaab8e38eb449129ecf66f *NEWS.md
+e1d2a287599016d7b720707c0273827d *NEWS.md
 db72ff23cbef62b141dfaa916ac79e61 *R/data.R
 e954bba4c23b42dafde8e52a67945913 *R/ohsome_aggregate_elements.R
 5ef56f85ac7a2d10b61009ec7df71879 *R/ohsome_boundary.R
@@ -18,16 +18,16 @@ cea14b37c2106898bf714a9a434eda8f *R/set_boundary.R
 f408b0242ae00e1ea452676ef225aba2 *R/set_parameters.R
 ec5ebcf9a778cee2ee8ba2c53ee2dc47 *R/utils.R
 0dd384b9a63b3b1b4eb62365c34f6d50 *R/validate.R
-87a60f6c10fa0c991aa6102eb1b8aa52 *R/zzz.R
-5c71c271fe8a2789f3e5177eec5825c8 *README.md
-000460c75cae0b3bb59dcd61b33dc99e *build/vignette.rds
+72630e97cfe4e5aa61b03579d992f409 *R/zzz.R
+b52c98c1f34c12bdb0b1010e564ccf1f *README.md
+d26ad2e83a7369a934f3dbeb0e7ba215 *build/vignette.rds
 5f014c42c23e17e8a645a708dd75f4dd *data/ohsome_api_url.rda
 de8aa1dce744c0326a2d421882e47052 *data/ohsome_endpoints.rda
 595ef22b337ac2e9be1511d44d91a09f *inst/CITATION
 13da13b789fa39040c6617eac35cbfd2 *inst/WORDLIST
-d16da8e7fb68be06da4dc0e9f46f3372 *inst/doc/ohsome.R
-dfa02f422ed416e4877a581b1c94d9b6 *inst/doc/ohsome.Rmd
-ebf1c1feed01b4023cc58342acfd6b8e *inst/doc/ohsome.html
+5886a0838337c3ee8adad2527feef657 *inst/doc/ohsome.R
+081bb713459e6fec23bbf4a095372a53 *inst/doc/ohsome.Rmd
+3a6f4dcb809ee4e8c8b8e04038221546 *inst/doc/ohsome.html
 48a07a8b0a85d8727709ffba50a15fc7 *man/figures/README-building_levels-1.png
 9317ed771de0a47429b1a4add2347b07 *man/figures/README-buildings-1.png
 54dd6da2f7eff7c7d1b9c1f3fe694e35 *man/figures/README-contribution_extraction-1.png
@@ -65,7 +65,7 @@ d2ad05abcc5ec2ce428efe80b13318b6 *tests/testthat/data/elements-fullHistory-geome
 6f6c54a011c121632fa83ba4fb20077d *tests/testthat/mock_api/404/api.ohsome.org/v1/metadata.R
 e6a0de0007c123bc74fc36a0fc6a419b *tests/testthat/setup.R
 7e04326fb4a4f4e7c501a32f364a9bd5 *tests/testthat/test-ohsome_aggregate_elements.R
-b399edde2f240de8b34b36d2cf5f96e9 *tests/testthat/test-ohsome_boundary.R
+f519be7d7e8be6a53839da570c98a41d *tests/testthat/test-ohsome_boundary.R
 8739328a92e55c9462eddca248343f70 *tests/testthat/test-ohsome_contributions_count.R
 fcb82076503ab6adf1519a409bc0a204 *tests/testthat/test-ohsome_extract_contributions.R
 cc691e90630a0226a541cf5b28c797dc *tests/testthat/test-ohsome_extract_elements.R
@@ -80,4 +80,4 @@ b211f69bb3084445d83733f75fae3e69 *tests/testthat/test-ohsome_users_count.R
 c308786e687522205fe700515bfd6acc *tests/testthat/test-set_parameters.R
 480bc336c9639f3aada1a56b2c83e616 *tests/testthat/test-validate.R
 004ae723b85066e2e40d4787c7885b3b *vignettes/figures/pipe-1.svg
-dfa02f422ed416e4877a581b1c94d9b6 *vignettes/ohsome.Rmd
+081bb713459e6fec23bbf4a095372a53 *vignettes/ohsome.Rmd
